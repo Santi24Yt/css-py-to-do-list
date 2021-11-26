@@ -1,0 +1,34 @@
+/* Style only no fuction practically */
+button,
+input[type="checkbox"] {
+	outline: none;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Align text input */
+.mark-undone-checkbox-label, .mark-done-checkbox-label {
+    text-align: center;
+	width: 40px;
+	height: auto;
+	margin: auto 0;
+	border: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+/* Show task state (done/undone) */
+.mark-undone-checkbox-label:after {
+    display: block;
+    height: 40px;
+    content: "Done";
+}
+.mark-done-checkbox-label:after {
+    content: "Undone";
+    display: block;
+    height: 40px;
+}
+
+/* ------------------------------- */
